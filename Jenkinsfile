@@ -8,7 +8,6 @@ pipeline {
             }
             steps {
                 echo 'Hello World'
-                echo 'Hello World 222'
                 sh 'terraform -v'
             }
         }
